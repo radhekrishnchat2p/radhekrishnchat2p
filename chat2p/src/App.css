@@ -1,0 +1,17 @@
+/* Chat-specific styles */
+.chat-message {
+  margin-bottom: 10px;
+}
+
+.chat-message.sent {
+  text-align: right;
+}
+
+.chat-message.received {
+  text-align: left;
+}
+
+.chat-timestamp {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.6);
+}
